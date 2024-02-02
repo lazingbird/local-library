@@ -5,7 +5,8 @@
 A simple Express app, styled with some bootstrap classes, that I made while reading the MDN(Mozzila Developer Network) documentation and following their Express tutorial. For storing my data, I used Mongoose to interact with my MongoDB Atlas database.
 
 Database modelling followed this diagram provided my MDN:
-![diagram](https://local-library-lsouzadev.up.railway.app/)
+![image](https://github.com/lazingbird/local-library/assets/99703902/5cb52299-82f4-4c2f-873d-e02f5b319040)
+
 
 ## Screenshots:
 ![image](https://github.com/lazingbird/local-library/assets/99703902/8af7f963-769c-4ada-a864-747b7afad7ee)
