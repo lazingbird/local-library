@@ -13,10 +13,7 @@ var app = express();
 // Set up mongoose connection
 const mongoose = require("mongoose");
 mongoose.set("strictQuery", false);
-const mongoDB =
-  "mongodb+srv://lazingbird:8pQYKh7EjDnmxiV@odin0.jnrf0hz.mongodb.net/local_library?retryWrites=true&w=majority";
-
-main().catch((err) => console.log(err));
+const mongoDB = main().catch((err) => console.log(err));
 async function main() {
   await mongoose.connect(mongoDB);
 }
